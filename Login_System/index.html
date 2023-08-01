@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="webfonts/fa-solid-900.woff2.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main p-5 text-center">
+        <div class="container group m-5 w-50 m-auto p-5 text-danger">
+            <h1>Smart Login System</h1>
+            <input type="email"  id= "useremail"class="form-control my-3 bg-transparent text-white placeholder-white " placeholder="Enter your email">
+            <input type="password"  id= "userpassword"class="form-control my-3 bg-transparent text-white" placeholder="Enter your password">
+            <p id="incorrect"></p>
+            <button class="btn btn-outline-info w-100 py-2 my-3" onclick="login()">Login</button>
+            <p class="text-white fa-1x var(--fa-font-solid)">Don’t have an account? <a class="text-white" href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
